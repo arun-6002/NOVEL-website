@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact_css.css">
+    <script defer src="contact.js"></script> <!-- Link to the JS file -->
+</head>
+<body>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+    const form = document.querySelector('form');
+    const nameInput = document.querySelector('input[type="text"]');
+    const passwordInput = document.querySelector('input[type="password"]');
+    const emailInput = document.querySelector('input[type="email"]');
+    const queryType = document.getElementById('arun');
+    const queryDetails = document.querySelector('textarea');
+    const termsCheckbox = document.getElementById('check');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission until validation passes
+        let errors = [];
+
+        // Validate Name
+        if (nameInput.value.trim() === "") {
+            errors.push("Name is required.");
+        }
+
+        // Validate Password (you can add more rules if needed)
+        if (passwordInput.value.trim() === "") {
+            errors.push("Password is required.");
+        }
+
+        // Validate Email
+        if (!validateEmail(emailInput.value)) {
+            errors.push("Please enter a valid email address.");
+        }
+
+        // Validate Query Type
+        if (queryType.value === "") {
+            errors.push("Please select a query type.");
+        }
+
+        // Validate Query Details
+        if (queryDetails.value.trim() === "") {
+            errors.push("Please provide more details about your query.");
+        }
+
+        // Validate Terms and Conditions
+        if (!termsCheckbox.checked) {
+            errors.push("You must agree to the terms and conditions.");
+        }
+
+        // If there are errors, show them in an alert
+        if (errors.length > 0) {
+            alert(errors.join("\n"));
+            return;
+        }
+
+        // If validation passes, submit the form or show success message
+        alert("Thank you for contacting us!");
+        // Optionally, you can submit the form data to a server here
+        // form.submit(); // Uncomment this if you need to submit to a server
+    });
+
+    // Email validation function
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+});
+
+    </script>
+    <div id="header">
+        <div id="div1">
+            <h1> <span id="logo"><img src="logo.jpg" height="43" style="border-radius: 10px;"></span>
+                Novels</h1>
+            <div id="div2">
+                <a href="Home.html"><i class="fa-solid fa-house"></i>Home</a>
+                <a href="about.html"><i class="fa-solid fa-circle-info"></i>About</a>
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact</a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+                <a href="sign_up.html"><i class="fa-solid fa-user"></i>Sign_up </a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <form>
+            <div>
+                <label for="name">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div><br>
+
+            <div>
+                <label for="password">Password:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="password" id="password" placeholder="Password" required>
+            </div><br>
+
+            <div>
+                <label for="email">Email id:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="email" id="email" placeholder="Enter your email address" required>
+            </div><br>
+
+            <div>
+                <label for="arun">Query type:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select id="arun" required>
+                    <option value="">Select</option>
+                    <option value="Information">*Information*</option>
+                    <option value="Enquiry">*Enquiry*</option>
+                    <option value="Complaints">*Complaints*</option>
+                    <option value="Other">*Other*</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="details">Query Details:</label>
+                <textarea id="details" placeholder="More details about the query..." required></textarea>
+            </div><br>
+
+            <div>
+                <input id="check" type="checkbox" required> &nbsp; I agree to all the terms and conditions
+            </div><br>
+
+            <div>
+                <input id="submit" type="submit" value="Submit">
+            </div>
+        </form>
+
+        <h3>Follow us on</h3>
+        <a href="https://www.facebook.com/rambabu.pitla"><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/teja._.arun___/"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://x.com/teja_arun_"><i class="fa-brands fa-x-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://web.telegram.org/a/#7488245362"><i class="fa-brands fa-telegram"></i></a>&nbsp;&nbsp;&nbsp;
+    </main>
+
+    <div id="footer">
+        <p>&copy; All rights reserved</p>
+    </div>
+</body>
+</html>

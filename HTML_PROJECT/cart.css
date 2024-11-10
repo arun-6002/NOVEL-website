@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(rgb(61, 57, 57), rgba(26, 23, 23, 0.959));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    color: azure;
+    border-radius: 8px;
+    background: linear-gradient(black, grey);
+}
+.header h1{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: azure;
+   
+}
+h1 {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 35px;
+    color: azure;
+    text-shadow: 2px 2px 3px rgba(14, 14, 13, 0.776);
+     
+}
+a:hover{
+    color: black;
+}
+#div2{
+    float: right;
+    margin-top: 30px;
+    padding-right: 10px;
+    word-spacing: 20px;
+    font-size: 20px;
+
+}
+#main2{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: azure;
+    background:linear-gradient(rgba(57, 56, 56, 0.628), rgba(192, 236, 228, 0.651));
+}
+#footer{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 150px;
+    background-color:  rgba(245, 245, 220, 0.342);
+    text-align: center;
+    color: azure;
+}
+#main1{
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 220, 0.342);
+    font-size: 20px;
+    padding: 3px;
+    color: azure;
+}
+#main1 h3{
+    padding-left: 30px;
+}

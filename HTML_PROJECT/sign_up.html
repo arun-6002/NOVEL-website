@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <script defer src="signup.js"></script> <!-- Link to the JS file -->
+</head>
+
+<body>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+    const signupForm = document.getElementById('signup-form');
+
+    // Event listener for form submission
+    signupForm.addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        // Collect form data
+        const firstName = document.getElementById('firstName').value.trim();
+        const lastName = document.getElementById('lastName').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const phone = document.getElementById('phone').value.trim();
+        const gender = document.querySelector('input[name="gender"]:checked');
+        const region = document.getElementById('region').value;
+        const city = document.getElementById('city').value.trim();
+        const address = document.getElementById('address').value.trim();
+        const terms = document.getElementById('terms').checked;
+
+        // Validate the form data
+        let errors = [];
+
+        if (firstName === "") {
+            errors.push("First name is required.");
+        }
+        if (lastName === "") {
+            errors.push("Last name is required.");
+        }
+        if (!validateEmail(email)) {
+            errors.push("Please enter a valid email address.");
+        }
+        if (!validatePhone(phone)) {
+            errors.push("Please enter a valid phone number.");
+        }
+        if (!gender) {
+            errors.push("Please select your gender.");
+        }
+        if (region === "") {
+            errors.push("Please select your region.");
+        }
+        if (city === "") {
+            errors.push("City is required.");
+        }
+        if (address === "") {
+            errors.push("Address is required.");
+        }
+        if (!terms) {
+            errors.push("You must agree to the terms and conditions.");
+        }
+
+        // If there are errors, display them and prevent form submission
+        if (errors.length > 0) {
+            alert(errors.join("\n"));
+            return;
+        }
+
+        // If no errors, show success message
+        alert(`Thank you, ${firstName}! You have successfully signed up.`);
+        
+        // Optionally, you can submit the form data to a server here
+        // signupForm.submit(); // Uncomment this if using server-side form submission
+    });
+
+    // Validate email format using regex
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+    // Validate phone number format (Indian example)
+    function validatePhone(phone) {
+        const phoneRegex = /^[0-9]{10}$/; // Simple 10-digit validation
+        return phoneRegex.test(phone);
+    }
+});
+
+    </script>
+   
+    <header>
+        <div id="div1">
+            <h1> <span id="logo"><img src="logo.jpg" height="43" style="border-radius: 10px;"></span>
+                Novels</h1>
+            <div id="div2">
+                <a href="Home.html"><i class="fa-solid fa-house"></i>Home </a>
+                <a href="about.html"><i class="fa-solid fa-circle-info"></i>About </a>
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i></i>Contact </a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart </a>
+                <a href="sign_up.html"><i class="fa-solid fa-user"></i>Sign_up </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+       
+        <div id="signup">
+            <div>
+                <h2><i class="fa-solid fa-user"></i>&nbsp; Sign_up</h2>
+            </div>
+            <form id="signup-form">
+                <div>
+                    <label for="firstName">First name:</label>
+                    <input type="text" id="firstName" placeholder="Enter your first name" required>
+                </div><br>
+                <div>
+                    <label for="lastName">Last name:</label>
+                    <input type="text" id="lastName" placeholder="Enter your last name" required>
+                </div><br>
+                <div>
+                    <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="email" id="email" placeholder="Enter your email id" required>
+                </div><br>
+                <div>
+                    <label for="phone">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="tel" id="phone" placeholder="Enter your mobile num" required>
+                </div><br>
+                <div>
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" id="male" value="Male" required> Male
+                    <input type="radio" name="gender" id="female" value="Female"> Female
+                </div><br>
+                <div>
+                    <label for="region">Region:</label>
+                    <select id="region" required>
+                        <option value="">Select</option>
+                        <option value="India">India</option>
+                        <option value="America">America</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Russia">Russia</option>
+                        <option value="U.K">U.K</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Antarctica">Antarctica</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="city">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="city" placeholder="Enter your city" required>
+                </div><br>
+                <div>
+                    <label for="address">Address:</label>
+                    <textarea id="address" placeholder="Enter your address" required></textarea>
+                </div><br>
+                <div>
+                    <input type="checkbox" id="terms" required> Agree to all the terms and conditions
+                </div><br>
+                <div>
+                    <button type="submit">Sign up!!</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <div id="footer">
+        <p>&copy all rights reserved</p>
+    </div>
+</body>
+
+</html>
