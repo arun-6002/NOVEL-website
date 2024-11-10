@@ -1,0 +1,1158 @@
+
+
+//Home HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Books</title>
+    <link rel="stylesheet" href="home_css.css">
+</head>
+
+<body>
+    <div id="main1">
+        <div id="div1">
+            <h1> <span id="logo"><img src="logo.jpg" height="43" style="border-radius: 10px;"></span>
+                Novels</h1>
+            <div id="div3">
+                <input type="search" placeholder="Search books" id="search">
+            </div>
+            <div id="div4">
+                <input type="submit" value="go" id="go">
+            </div>
+            <div id="div2">
+                <a href="Home.html"><i class="fa-solid fa-house"></i>Home </a>
+                <a href="about.html"><i class="fa-solid fa-circle-info"></i>About </a>
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact </a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart </a>
+                <a href="sign_up.html"><i class="fa-solid fa-user"></i>Sign_up </a>
+            </div>
+        </div>
+    </div>
+    <div id="main2">
+        <p>&#128212;One Good book equal to 1000 Good Friends &#128522;</p>
+    </div>
+    <div id="main3">
+        <div id="div5">
+            <img src="books3.webp" id="books">
+        </div>
+        <div id="div6">
+            <h2>Special Discount <span id="discount">50% off</span> on <br> some popular novels</h2>
+        </div>
+
+    </div>
+    <div id="div7">
+        <h3>&#128204; Some Beautiful Collection 📖</h3>
+    </div>
+    <div class="product">
+        <div class="book">
+            <div class="Book_box">
+                <div class="book1_img" style="background-image: url('harry\ potter.jpg');"></div><br>
+                <p id="bookname">The Harry Potter</p>
+                <p> <span id="stock">In Stock</span>&nbsp;&nbsp;&nbsp;<span id="price"><br><s>₹1299</s>&nbsp;&nbsp;₹749</span></p>
+                <button>Buy now</button>
+            </div>
+        </div>
+        <div class="book">
+            <div class="Book_box">
+                <div class="book1_img" style="background-image: url('sherlock\ homes.jpg');"></div>
+            </div><br>
+            <p id="bookname">Sherlock Homes</p>
+            <p> <span id="stock">In Stock</span> &nbsp;&nbsp;&nbsp;<span id="price"><br><s>₹1199</s>&nbsp;&nbsp;₹599 </span></p>
+            <button>Buy now</button>
+        </div>
+        <div class="book">
+            <div class="Book_box">
+                <div class="book1_img" style="background-image: url('Hawk.jpg');"></div>
+            </div><br>
+            <p id="bookname">Black Holes</p>
+            <p> <span id="stock">In Stock</span>&nbsp;&nbsp;&nbsp;<span id="price"><br><s>₹1499</s>&nbsp;&nbsp;₹749 </span></p>
+            <button>Buy now</button>
+        </div>
+        <div class="book">
+            <div class="Book_box">
+                <div class="book1_img" style="background-image: url('charly.jpg');"></div>
+            </div><br>
+            <p id="bookname">Charly Chaplin</p>
+            <p> <span id="stock">In Stock</span>&nbsp;&nbsp;&nbsp;<span id="price"><br><s>₹1099</s>&nbsp;&nbsp;₹549 </span></p>
+            <button>Buy now</button>
+        </div>
+        <div class="book">
+            <div class="Book_box">
+                <div class="book1_img" style="background-image: url('good\ book.jpg');"></div>
+            </div><br>
+            <p id="bookname">The Calculating Stars</p>
+            <p> <span id="stock">In Stock</span>&nbsp;&nbsp;&nbsp;<span id="price"><br><s>₹1099</s>&nbsp;&nbsp;₹549 </span></p>
+            <button>Buy now</button>
+        </div>
+    </div>
+    
+    <div class="product2">
+        <div class="book">
+            <div class="Book_box">
+                <div class="book1_img" style="background-image: url('action.jpg');"></div><br>
+                <p id="bookname">Action Diet</p>
+                <p> <span id="stock">In Stock</span>&nbsp;&nbsp;&nbsp;<span id="price"><br><s>₹1299</s>&nbsp;&nbsp;₹659</span></p>
+                <button>Buy now</button>
+            </div>
+        </div>
+        <div class="book">
+            <div class="Book_box">
+                <div class="book1_img" style="background-image: url('club.jpg');"></div>
+            </div><br>
+            <p id="bookname">5'am Club</p>
+            <p> <span id="stock">In Stock</span> &nbsp;&nbsp;&nbsp;<span id="price"><br><s>₹1199</s>&nbsp;&nbsp;₹599</span></p>
+            <button>Buy now</button>
+        </div>
+        <div class="book">
+            <div class="Book_box">
+                <div class="book1_img" style="background-image: url('grow.jpg');"></div>
+            </div><br>
+            <p id="bookname">Grow rich</p>
+            <p> <span id="stock">In Stock</span>&nbsp;&nbsp;&nbsp;<span id="price"><br><s>₹1499</s>&nbsp;&nbsp;₹749</span></p>
+            <button>Buy now</button>
+        </div>
+        <div class="book">
+            <div class="Book_box">
+                <div class="book1_img" style="background-image: url('mind.jpg');"></div>
+            </div><br>
+            <p id="bookname">Power of Mind</p>
+            <p> <span id="stock">In Stock</span>&nbsp;&nbsp;&nbsp;<span id="price"><br><s>₹1099</s>&nbsp;&nbsp;₹549</span></p>
+            <button>Buy now</button>
+        </div>
+        <div class="book">
+            <div class="Book_box">
+                <div class="book1_img" style="background-image: url('power.png');"></div>
+            </div><br>
+            <p id="bookname">Power</p>
+            <p> <span id="stock">In Stock</span>&nbsp;&nbsp;&nbsp;<span id="price"><br><s>₹1099</s>&nbsp;&nbsp;₹549  </span></p>
+            <button>Buy now</button>
+        </div>
+    </div>
+    <div id="footer">
+        <p>&copy all copy rights reserved</p>
+
+    </div>
+
+</body>
+
+</html>
+
+//HOME CSS
+
+
+body {
+    background: linear-gradient(rgb(104, 82, 82), rgba(24, 8, 8, 0.959));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 35px;
+    color: azure;
+    text-shadow: 2px 2px 3px rgba(14, 14, 13, 0.776);
+     
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+#main1 {
+    border-radius: 8px;
+    justify-content: space-evenly;
+    background: rgba(252, 197, 114, 0.418);
+}
+
+#div1 {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#div2 {
+    margin-top: 50px;
+    float: right;
+    word-spacing: 14px;
+    font-size: 20px;
+}
+
+#div3 {
+    display: flex;
+    display: inline;
+    padding-left: 20%;
+}
+
+#search {
+    border-radius: 5px;
+    border-radius: none;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    display: inline;
+    background-color: rgb(221, 210, 210);
+
+}
+
+#div4 {
+    display: inline;
+}
+
+#go {
+    display: inline;
+    height: 27px;
+    background-color: rgb(221, 210, 210);
+    border: none;
+    border-radius: 5px;
+}
+
+#main2 {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 3px;
+    color: azure;
+    font-size: 20px;
+    background: rgb(112, 73, 73);
+}
+
+#main3 {
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: linear-gradient(rgba(0, 0, 0, 0.881), rgba(96, 54, 5, 0.89));
+}
+
+#books {
+    width: 400px;
+    height: 200px;
+    margin-left: 40px;
+    border-radius: 5px;
+
+
+}
+
+#div5 {
+    display: inline-block;
+}
+
+#div6 {
+    float: right;
+    padding-right: 35px;
+    font-size: 30px;
+
+}
+
+h2 {
+    color: azure;
+}
+
+#discount {
+    color: rgba(255, 208, 0, 0.772);
+}
+
+a:hover {
+    color:black;
+}
+
+#div7 {
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(211, 211, 114, 0.342);
+    font-size: 20px;
+    padding-left: 15px;
+    padding: 3px;
+    color: azure;
+}
+
+#div8 {
+    border: 1px solid black;
+    margin-top: 1000px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 220, 0.342);
+    font-size: 20px;
+    padding-left: 40px;
+    color: azure;
+    
+}
+
+
+#delivery {
+    color: greenyellow;
+}
+
+.book1_img {
+    height: 100px;
+    width: 100px;
+}
+
+.product {
+    margin-bottom: 180px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.product2{
+    
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .book {
+    /* box-shadow: 4px 5px 17px rgb(0, 0, 0); */
+    height: 255px;
+    /* background-color: rgb(206, 247, 241); */
+    border-radius: 10px;
+     width: 200px;
+    margin-top: 20px;
+    padding: 10px 0px 5px;
+} 
+
+.book1_img {
+    height: 250px;
+    width: 160px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 17px rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.product p {
+    margin-left: 50px;
+
+}
+
+.product span {
+    color: rgb(241, 223, 164);
+    font-size: 20px;
+}
+.product2 p {
+    margin-left: 50px;
+
+}
+
+.product2 span {
+    color:rgb(241, 223, 164);
+    font-size: 20px;
+}
+
+#bookname {
+    width: 160px;
+    margin-left: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:azure
+}
+
+#Book_Heading1 {
+    padding-top: 18px;
+    padding-left: 40px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#Book_Heading2 {
+    padding-left: 40px;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#stock {
+    color: rgb(211, 221, 63);
+    font-size: 15px;
+}
+button{
+    background-color: rgb(225, 225, 223);
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+#footer{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 200px;
+    background-color:  rgba(211, 211, 114, 0.342);
+    text-align: center;
+    color: azure;
+}
+.book1_img:hover{
+    width: +100%;
+    transition-duration:0.3s;
+}
+
+
+
+// ABOUT HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <div class="header">
+        <div id="div1">
+            <h1> <span id="logo"><img src="logo.jpg" height="43" style="border-radius: 10px;"></span>
+                Novels</h1>
+            <div id="div2">
+                
+                <a href="Home.html"><i class="fa-solid fa-house"></i>Home </a>
+                <a href="about.css"><i class="fa-solid fa-circle-info"></i>About</a>
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact </a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+                <a href="sign_up.html"><i class="fa-solid fa-user"></i>Sign_up </a>
+            </div>
+        </div>
+    </div>
+    <div id="main1">
+        <h3><b><i>" Novels "</i></b> India's Largest and most recommende Online Book Store</h3>
+        <ol>
+            <li>Here we provide many useful books in our website for affordable price with many more offers.</li><br>
+            <li>It is user-friendly website, which is very easy to use.</li><br>
+            <li>Special books available on Bussiness ideas.</li><br>
+            <li>All important book avilable for Educational purpose.</li><br>
+            <li>Special discount for all categories of students.</li><br>
+            <li>Customer care available 24/7 .</li><br>
+        </ol>
+        <div id="div3">
+            <h3>Follow us on</h3>
+            <a href="https://www.facebook.com/rambabu.pitla"><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/teja._.arun___/"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://x.com/teja_arun_"><i class="fa-brands fa-x-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://web.telegram.org/a/#7488245362"><i class="fa-brands fa-telegram"></i></a>&nbsp;&nbsp;&nbsp;
+        </div>
+    </div>
+    <div id="footer">
+        <p>&copy all copy rights reserved</p>
+
+    </div>
+
+</body>
+
+</html>
+
+
+//about CSS
+
+
+
+body {
+    background-image: url(htmlabout.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    color: azure;
+    border-radius: 8px;
+    background: linear-gradient(rgb(105, 62, 15), grey);
+}
+h1 {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 35px;
+    color: azure;
+    text-shadow: 2px 2px 3px rgba(14, 14, 13, 0.776);
+     
+}
+.header h1 {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+
+}
+
+a:hover {
+    color:black;
+}
+
+#div2 {
+    float: right;
+    margin-top: 30px;
+    padding-right: 10px;
+    word-spacing: 20px;
+    font-size: 20px;
+
+}
+
+#main1 {
+    border: 1px solid black;
+    margin-top: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(240, 255, 255, 0.737);
+    width: 650px;
+    font-size: 20px;
+    margin-left: 460px;
+    padding: 20px;
+    color: rgb(17, 17, 16);
+}
+
+ol {
+    font-size: 18px;
+}
+
+#footer {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 110px;
+    background-color: rgba(64, 54, 18, 0.546);
+    text-align: center;
+    color: azure;
+}
+#div3 a{
+    color: black;
+}
+
+
+
+// contact HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact_css.css">
+    <script defer src="contact.js"></script> <!-- Link to the JS file -->
+</head>
+<body>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+    const form = document.querySelector('form');
+    const nameInput = document.querySelector('input[type="text"]');
+    const passwordInput = document.querySelector('input[type="password"]');
+    const emailInput = document.querySelector('input[type="email"]');
+    const queryType = document.getElementById('arun');
+    const queryDetails = document.querySelector('textarea');
+    const termsCheckbox = document.getElementById('check');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission until validation passes
+        let errors = [];
+
+        // Validate Name
+        if (nameInput.value.trim() === "") {
+            errors.push("Name is required.");
+        }
+
+        // Validate Password (you can add more rules if needed)
+        if (passwordInput.value.trim() === "") {
+            errors.push("Password is required.");
+        }
+
+        // Validate Email
+        if (!validateEmail(emailInput.value)) {
+            errors.push("Please enter a valid email address.");
+        }
+
+        // Validate Query Type
+        if (queryType.value === "") {
+            errors.push("Please select a query type.");
+        }
+
+        // Validate Query Details
+        if (queryDetails.value.trim() === "") {
+            errors.push("Please provide more details about your query.");
+        }
+
+        // Validate Terms and Conditions
+        if (!termsCheckbox.checked) {
+            errors.push("You must agree to the terms and conditions.");
+        }
+
+        // If there are errors, show them in an alert
+        if (errors.length > 0) {
+            alert(errors.join("\n"));
+            return;
+        }
+
+        // If validation passes, submit the form or show success message
+        alert("Thank you for contacting us!");
+        // Optionally, you can submit the form data to a server here
+        // form.submit(); // Uncomment this if you need to submit to a server
+    });
+
+    // Email validation function
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+});
+
+    </script>
+    <div id="header">
+        <div id="div1">
+            <h1> <span id="logo"><img src="logo.jpg" height="43" style="border-radius: 10px;"></span>
+                Novels</h1>
+            <div id="div2">
+                <a href="Home.html"><i class="fa-solid fa-house"></i>Home</a>
+                <a href="about.html"><i class="fa-solid fa-circle-info"></i>About</a>
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact</a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+                <a href="sign_up.html"><i class="fa-solid fa-user"></i>Sign_up </a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <form>
+            <div>
+                <label for="name">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div><br>
+
+            <div>
+                <label for="password">Password:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="password" id="password" placeholder="Password" required>
+            </div><br>
+
+            <div>
+                <label for="email">Email id:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="email" id="email" placeholder="Enter your email address" required>
+            </div><br>
+
+            <div>
+                <label for="arun">Query type:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select id="arun" required>
+                    <option value="">Select</option>
+                    <option value="Information">*Information*</option>
+                    <option value="Enquiry">*Enquiry*</option>
+                    <option value="Complaints">*Complaints*</option>
+                    <option value="Other">*Other*</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="details">Query Details:</label>
+                <textarea id="details" placeholder="More details about the query..." required></textarea>
+            </div><br>
+
+            <div>
+                <input id="check" type="checkbox" required> &nbsp; I agree to all the terms and conditions
+            </div><br>
+
+            <div>
+                <input id="submit" type="submit" value="Submit">
+            </div>
+        </form>
+
+        <h3>Follow us on</h3>
+        <a href="https://www.facebook.com/rambabu.pitla"><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/teja._.arun___/"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://x.com/teja_arun_"><i class="fa-brands fa-x-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://web.telegram.org/a/#7488245362"><i class="fa-brands fa-telegram"></i></a>&nbsp;&nbsp;&nbsp;
+    </main>
+
+    <div id="footer">
+        <p>&copy; All rights reserved</p>
+    </div>
+</body>
+</html>
+
+
+//concept css
+
+body{
+    background-image: url(contact\ book.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header{
+    background:linear-gradient( grey,rgb(23, 22, 67));
+    padding: 10px;
+    border-radius:10px ;
+}
+h1{
+    display: inline-block;
+    color: azure;
+    font-size: 35px;
+    padding-left: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+#div2{
+    float: right;
+    margin-top: 30px;
+    padding-right: 10px;
+    word-spacing: 20px;
+    font-size: 20px;
+
+}
+main{
+
+    margin-left: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 50%;
+    background:linear-gradient(rgba(22, 25, 52, 0.342),rgba(166, 179, 232, 0.726));
+    color: black;
+    font-size: 20px;
+}
+label{
+    color: azure;
+    font-size: 23px;
+}
+input{
+    background-color: rgb(163, 225, 225);
+    color: rgb(64, 64, 127);
+    font-size: 16px;
+}
+#footer{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 150px;
+    background-color:  rgba(245, 245, 220, 0.342);
+    text-align: center;
+    color: azure;
+}
+h1 {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 35px;
+    color: azure;
+    text-shadow: 2px 2px 3px rgba(14, 14, 13, 0.776);
+     
+}
+h3{
+    color: azure;
+}
+main a {
+    color: black;
+}
+#arun{
+    background-color:rgb(163, 225, 225) ;
+}
+a:hover{
+    color:black;
+}
+#details{
+    background-color: rgb(163, 225, 225) ;
+} 
+
+
+// cart html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="header">
+        <div id="div1">
+            <h1> <span id="logo"><img src="logo.jpg" height="43" style="border-radius: 10px;"></span>
+                Novels</h1>
+            <div id="div2">
+                <a href="Home.html"><i class="fa-solid fa-house"></i>Home </a>
+                <a href="about.html"><i class="fa-solid fa-circle-info"></i>About </a>
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact </a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+                <a href="sign_up.html"><i class="fa-solid fa-user"></i>Sign_up </a>
+            </div>
+        </div>
+        </div>
+        <div id="main1">
+            <h3>You can access your cart items here</h3>
+        </div>
+        <div id="main2">
+            <p>
+                OOPS!! 🧐🧐<br><br>
+
+                <a href="Home.html"><img src="cart.png" width="200px" height="200px"></a><br>
+                Looks like your Cart is Empty<br>
+                try shopping any items.
+
+            </p>
+        </div>
+        <div id="footer">
+            <p>&copy all copy rights reserved</p>
+    
+        </div>
+</body>
+</html>
+
+// cart css
+
+
+body {
+    background: linear-gradient(rgb(61, 57, 57), rgba(26, 23, 23, 0.959));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    color: azure;
+    border-radius: 8px;
+    background: linear-gradient(black, grey);
+}
+.header h1{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: azure;
+   
+}
+h1 {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 35px;
+    color: azure;
+    text-shadow: 2px 2px 3px rgba(14, 14, 13, 0.776);
+     
+}
+a:hover{
+    color: black;
+}
+#div2{
+    float: right;
+    margin-top: 30px;
+    padding-right: 10px;
+    word-spacing: 20px;
+    font-size: 20px;
+
+}
+#main2{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: azure;
+    background:linear-gradient(rgba(57, 56, 56, 0.628), rgba(192, 236, 228, 0.651));
+}
+#footer{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 150px;
+    background-color:  rgba(245, 245, 220, 0.342);
+    text-align: center;
+    color: azure;
+}
+#main1{
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 220, 0.342);
+    font-size: 20px;
+    padding: 3px;
+    color: azure;
+}
+#main1 h3{
+    padding-left: 30px;
+}
+
+
+
+//sign up css
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <script defer src="signup.js"></script> <!-- Link to the JS file -->
+</head>
+
+<body>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+    const signupForm = document.getElementById('signup-form');
+
+    // Event listener for form submission
+    signupForm.addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        // Collect form data
+        const firstName = document.getElementById('firstName').value.trim();
+        const lastName = document.getElementById('lastName').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const phone = document.getElementById('phone').value.trim();
+        const gender = document.querySelector('input[name="gender"]:checked');
+        const region = document.getElementById('region').value;
+        const city = document.getElementById('city').value.trim();
+        const address = document.getElementById('address').value.trim();
+        const terms = document.getElementById('terms').checked;
+
+        // Validate the form data
+        let errors = [];
+
+        if (firstName === "") {
+            errors.push("First name is required.");
+        }
+        if (lastName === "") {
+            errors.push("Last name is required.");
+        }
+        if (!validateEmail(email)) {
+            errors.push("Please enter a valid email address.");
+        }
+        if (!validatePhone(phone)) {
+            errors.push("Please enter a valid phone number.");
+        }
+        if (!gender) {
+            errors.push("Please select your gender.");
+        }
+        if (region === "") {
+            errors.push("Please select your region.");
+        }
+        if (city === "") {
+            errors.push("City is required.");
+        }
+        if (address === "") {
+            errors.push("Address is required.");
+        }
+        if (!terms) {
+            errors.push("You must agree to the terms and conditions.");
+        }
+
+        // If there are errors, display them and prevent form submission
+        if (errors.length > 0) {
+            alert(errors.join("\n"));
+            return;
+        }
+
+        // If no errors, show success message
+        alert(`Thank you, ${firstName}! You have successfully signed up.`);
+        
+        // Optionally, you can submit the form data to a server here
+        // signupForm.submit(); // Uncomment this if using server-side form submission
+    });
+
+    // Validate email format using regex
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+    // Validate phone number format (Indian example)
+    function validatePhone(phone) {
+        const phoneRegex = /^[0-9]{10}$/; // Simple 10-digit validation
+        return phoneRegex.test(phone);
+    }
+});
+
+    </script>
+   
+    <header>
+        <div id="div1">
+            <h1> <span id="logo"><img src="logo.jpg" height="43" style="border-radius: 10px;"></span>
+                Novels</h1>
+            <div id="div2">
+                <a href="Home.html"><i class="fa-solid fa-house"></i>Home </a>
+                <a href="about.html"><i class="fa-solid fa-circle-info"></i>About </a>
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i></i>Contact </a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart </a>
+                <a href="sign_up.html"><i class="fa-solid fa-user"></i>Sign_up </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+       
+        <div id="signup">
+            <div>
+                <h2><i class="fa-solid fa-user"></i>&nbsp; Sign_up</h2>
+            </div>
+            <form id="signup-form">
+                <div>
+                    <label for="firstName">First name:</label>
+                    <input type="text" id="firstName" placeholder="Enter your first name" required>
+                </div><br>
+                <div>
+                    <label for="lastName">Last name:</label>
+                    <input type="text" id="lastName" placeholder="Enter your last name" required>
+                </div><br>
+                <div>
+                    <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="email" id="email" placeholder="Enter your email id" required>
+                </div><br>
+                <div>
+                    <label for="phone">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="tel" id="phone" placeholder="Enter your mobile num" required>
+                </div><br>
+                <div>
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" id="male" value="Male" required> Male
+                    <input type="radio" name="gender" id="female" value="Female"> Female
+                </div><br>
+                <div>
+                    <label for="region">Region:</label>
+                    <select id="region" required>
+                        <option value="">Select</option>
+                        <option value="India">India</option>
+                        <option value="America">America</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Russia">Russia</option>
+                        <option value="U.K">U.K</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Antarctica">Antarctica</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="city">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="city" placeholder="Enter your city" required>
+                </div><br>
+                <div>
+                    <label for="address">Address:</label>
+                    <textarea id="address" placeholder="Enter your address" required></textarea>
+                </div><br>
+                <div>
+                    <input type="checkbox" id="terms" required> Agree to all the terms and conditions
+                </div><br>
+                <div>
+                    <button type="submit">Sign up!!</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <div id="footer">
+        <p>&copy all rights reserved</p>
+    </div>
+</body>
+
+</html>
+
+
+// signup css
+
+body {
+    background-image: url(sign\ up.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: linear-gradient(rgba(75, 110, 153, 0.388), rgba(27, 27, 104, 0.557));
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    display: inline-block;
+    color: azure;
+    font-size: 35px;
+    padding-left: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+#div2 {
+    float: right;
+    margin-top: 40px;
+    padding-right: 10px;
+    word-spacing: 20px;
+    font-size: 20px;
+
+}
+h1 {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 35px;
+    color: azure;
+    text-shadow: 2px 2px 3px rgba(14, 14, 13, 0.776);
+     
+}
+main {
+    border: 1px solid black;
+    float: right;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgba(77, 141, 205, 0.347);
+    margin-top: 40px;
+    margin-right: 180px;
+    width: fit-content;
+    color: azure;
+}
+
+#footer {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 800px;
+    background-color: rgba(245, 245, 220, 0.342);
+    text-align: center;
+    color: azure;
+}
+
+#signup {
+    width: 280px;
+}
+a:hover{
+    color: black;
+}
+
+
+//end
